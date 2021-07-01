@@ -38,6 +38,13 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink
                         exact
+                        to='/trees'
+                        className='ml-10 hover:text-blue-800'
+                        activeClassName='text-blue-600'>
+                        Trees (beta)
+                    </NavLink>
+                    <NavLink
+                        exact
                         to='/about'
                         className='ml-10 hover:text-blue-800'
                         activeClassName='text-blue-600'>

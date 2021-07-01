@@ -11,6 +11,7 @@ import { Jbrowse } from './pages/Jbrowse'
 import { Access } from './pages/Access'
 import { Footer } from './components/Footer'
 import { Geo } from './components/Geo'
+import { Trees } from './components/Trees'
 import './styles/main.css'
 
 export const App = () => {
@@ -30,6 +31,7 @@ export const App = () => {
                 <Route exact path='/team' component={Team} />
                 <Route exact path='/jbrowse' component={Jbrowse} />
                 <Route exact path='/geo' component={Geo} />
+                <Route exact path='/trees' component={Trees} />
                 <Route exact path='/access' component={Access} />
                 <Route
                     exact
